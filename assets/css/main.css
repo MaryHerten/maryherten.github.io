@@ -1,52 +1,87 @@
-body{
-      background-color:black;
-      color:white;
-      font-family:courier;
-      font-size:50px;
-    }
+	body{
+	      background-color:black;
+	      color:white;
+	      font-family:courier;
+	      font-size:50px;
+	    }
 
-a {
-	color:white;
-}
-
-
-img {
-	position:center;
-	margin-left:24.5%;
-}
-
-.about{
-	background-color:white;
-	position:fixed; 
-	height:100vh;
-	width:100vw;
-	margin-left:-100vw;
-	transition:0.2s; 
-	
-}
-
-.about.active{
-	margin-left:0vw;
-	transition:0.2s; 
-}
-
-
-.title {
-	font-size: 24vw;
-	text-align: center;
-}
-
-.interaction .content {
-	box-shadow: 10px 10px 10px gray;
-	background-color: lightgray;
-}
-.nav{
-	font-family:courier;
-}
-
-	.aboutinfo{
-		font-size:20px;
+	a {
+		color:white;
 	}
+
+
+	img {
+		position:center;
+		margin-left:24.5%;
+	}
+
+	.about{
+		background-color:red;
+		position:fixed; 
+		top:0px;
+		left:0px;
+		height:100vh;
+		width:100vw;
+		margin-left: -100vw;
+		transition:1s; 
+		
+	}
+
+	.about.active{
+		margin-left:0vw;
+		transition:1s; 
+		background-color:red;
+		color:#000;
+		height:100vh;
+		width:100vw;
+	}
+
+	.buy{
+		background-color:blue;
+		position:fixed; 
+		top:0px;
+		left:0px;
+		height:100vh;
+		width:100vw;
+		margin-left: 100vw;
+		transition:1s; 
+		
+	}
+
+	.buy.active{
+		margin-left:0vw;
+		transition:1s; 
+		background-color:green;
+		color:#000;
+		height:100vh;
+		width:100vw;
+	}
+
+	.articles{
+		background-color:lime;
+		position:fixed; 
+		top:0px;
+		left:0px;
+		height:100vh;
+		width:100vw;
+		margin-top: -100vh;
+		transition:1s; 
+		
+	}
+
+	.articles.active{
+		margin-top:0vh;
+		transition:1s; 
+		background-color:yellow;
+		color:#000;
+		height:100vh;
+		width:100vw;
+	}		
+
+	.nav{
+		font-family:courier;
+	}
+
     .grid{
       display:flex;
       flex-wrap:wrap;
