@@ -223,4 +223,39 @@
 	width:auto;
 }
 
+.buyinfo{
+	color:white;
+	margin-top:50px;
+	position:fixed;
+	margin-left:50px;
+
+}
+.buy-close{
+	color:white;
+	margin-top:51%;
+	margin-left:39%;
+	cursor: pointer;
+}
+
+.about-close{
+	cursor: pointer;
+	margin-left:600px;
+	margin-top:750px;
+	position:absolute;
+}
+
+
+.articles-close{
+	cursor:pointer;
+	margin-left:650px;
+	margin-top:700px;
+	position:absolute;
+}
+.aboutinfo{
+	margin-top:45%;
+}
+
+
+
+
 
