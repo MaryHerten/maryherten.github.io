@@ -231,6 +231,7 @@
 
 }
 .buy-close{
+	position:absolute;
 	color:white;
 	margin-top:51%;
 	margin-left:39%;
