@@ -16,7 +16,7 @@
 	}
 
 	.about{
-		background-color:red;
+		background-color:slateblue;
 		position:fixed; 
 		top:0px;
 		left:0px;
@@ -30,14 +30,14 @@
 	.about.active{
 		margin-left:0vw;
 		transition:1s; 
-		background-color:red;
+		background-color:mintcream;
 		color:#000;
 		height:100vh;
 		width:100vw;
 	}
 
 	.buy{
-		background-color:blue;
+		background-color:darkblue;
 		position:fixed; 
 		top:0px;
 		left:0px;
@@ -51,7 +51,7 @@
 	.buy.active{
 		margin-left:0vw;
 		transition:1s; 
-		background-color:green;
+		background-color:dimgray;
 		color:#000;
 		height:100vh;
 		width:100vw;
@@ -72,7 +72,7 @@
 	.articles.active{
 		margin-top:0vh;
 		transition:1s; 
-		background-color:yellow;
+		background-color:white;
 		color:#000;
 		height:100vh;
 		width:100vw;
@@ -147,27 +147,6 @@
     .close {
       cursor: pointer;
     }
-
-
-/*slide in from left*/
-/*.menu{
-	position:fixed;
-	top:0px;
-	left:0px;
-	width:50%;
-	height:100%;
-	background-color:lime;
-	margin-left:-50%;
-	transition:0.5s;
-}
-
-.menu.left{
-	margin-left:0%;
-	transition:0.5s;
-}
-*/
-
-/*slide in from bottom*/
 
 .menu{
 	position:fixed;
@@ -264,6 +243,7 @@
 	margin-top:67%;
 	margin-left:20px;
 }
+
 
 
 

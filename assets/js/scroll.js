@@ -176,3 +176,12 @@ Marquee3k.init();
 // Marquee3k.init({
 //     selector: '.selector-name', // define a custom classname
 // });
+
+
+
+$('#maindiv').width($('#div1').width());
+
+
+$('#maindiv1').width($('#div3').width());
+
+
