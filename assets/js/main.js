@@ -1,49 +1,33 @@
-$( document ).ready(function() {
-    
-$('.about-link').click(function() {
-  $('.about').addClass('active');
-});
+$(document).ready(function(){
+	console.log("The page is ready!");
 
-$('.about-close').click(function() {
-  $('.about').removeClass('active');
-});
+	$('.research-item').click(function(){
+		$(this).toggleClass('large');
+	});
 
-$('.buy-link').click(function() {
-  $('.buy').addClass('active');
-});
+	$('.nav-item').click(function(){
+		$('.nav-item').removeClass('active');
+		$(this).addClass('active');
+	})
 
-$('.buy-close').click(function() {
-  $('.buy').removeClass('active');
-});
+	var hideAll	= function() {
+		$('.research-item').addClass('hide');
+	}
 
-$('.articles-link').click(function() {
-  $('.articles').addClass('active');
-});
+	$('.btn-ENTER').click(function(){
+		hideAll();
+		$('.ENTER').removeClass('hide')
+	});
 
-$('.articles-close').click(function() {
-  $('.articles').removeClass('active');
-});
+	$('.btn-EXIT').click(function(){
+		hideAll();
+		$('.EXIT').removeClass('hide')
+	});
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	$('.btn-DOORBELL').click(function(){
+		hideAll();
+		$('.DOORBELL').removeClass('hide')
+	});
 
 
 });
