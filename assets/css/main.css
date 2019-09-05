@@ -13,60 +13,10 @@ a {
 
 }
 
-.sound1 {
-	z-index:7;
-	position:absolute;
-	left:56%;
-	top:28%;
-}
-
-.sound2 {
-	z-index:7;
-	position:absolute;
-	left:56%;
-	top:142%;
-}
-
-.sound3 {
-	z-index:7;
-	position:absolute;
-	left:23%;
-	top:84%;
-}
-
-.sound4 {
-	z-index:7;
-	position:absolute;
-	left:73%;
-	top:200%;
-}
-
-.sound5 {
-	z-index:7;
-	position:absolute;
-	left:7%;
-	top:142%;
-}
-
-.sound6 {
-	z-index:7;
-	position:absolute;
-	left:7%;
-	top:257%;
-}
-
-.sound7 {
-	z-index:7;
-	position:absolute;
-	left:74%;
-	top:84%;
-}
-
-.sound8 {
-	z-index:7;
-	position:absolute;
-	left:23%;
-	top:200%;
+audio{
+	margin-top:10px;
+	width:100%;
+	background:;
 }
 
 .text{
@@ -82,7 +32,7 @@ a {
 }
 
 .text1{
-	text-align:center;
+	text-align:;
 	font-family:courier;
 	font-size:30px;
 	background-color:yellow;
@@ -115,6 +65,8 @@ a {
 	padding:5px;
 	border-radius:2px;
 	margin-left:11.5%;
+	text-decoration:none;
+
 }
 
 .research {
@@ -129,7 +81,8 @@ a {
 	flex: 0 0 33.333%;
 	padding:5px;
 	font-size:14px;
-
+	transition:2s;
+	cursor:zoom-in;
 }
 
 .research-item img {
@@ -194,15 +147,15 @@ a {
 
 .large{
 	flex:0 0 66.666%;
-	border:2px solid lime;
 	transition:2s;
 	cursor:zoom-out;
 }
 
+
+
 .active{
 	background-color: pink;
 }
-
 
 
 
