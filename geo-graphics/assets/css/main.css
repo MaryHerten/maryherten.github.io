@@ -109,7 +109,7 @@ a {
 .barcode{
 	background-color: white;
 	display:flex;
-	flex-wrap:wrap;
+/*	flex-wrap:wrap;*/
 /*	position: fixed;*/
 }
 
@@ -133,6 +133,26 @@ a {
 	width:5vw;
 	height:100vh;
 	margin-left:100px;
+}
+
+.barcode4{
+	background-color: black;
+	width:17vw;
+	height:100vh;
+	margin-left:32px;
+}
+.barcode5{
+	background-color: black;
+	width:1vw;
+	height:100vh;
+	margin-left:23px;
+}
+
+.barcode6{
+	background-color: black;
+	width:12vw;
+	height:100vh;
+	margin-left:50px;
 }
 
 .network{
