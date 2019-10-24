@@ -1,0 +1,58 @@
+body{
+	background-color: magenta;
+	height: 100vh;
+	width: 100vw;
+}
+
+
+a {
+	
+}
+
+.heading{
+	font-size: 40px;
+	font-family: courier;
+	color:yellow;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+
+}
+
+
+.intro {
+	padding: 10px;
+}
+
+.table {
+	margin-top: 20px;
+}
+
+
+.row {
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 2px solid yellow;
+	padding: 10px;
+	color:white;
+	font-family: courier;
+	font-size: 20px;
+	margin-left:20px;
+	margin-right: 20px;
+
+}
+
+.title {
+	flex:0 0 50%;
+	color:white;
+
+}
+
+.type {
+	flex:0 0 25%;
+}
+
+.date {
+	flex:0 0 25%;
+}
+

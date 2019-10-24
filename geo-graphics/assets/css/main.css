@@ -118,7 +118,18 @@ a {
 	width:7vw;
 	height:100vh;
 	margin-left:40px;
+	animation: barcode 2s linear infinite alternate;
 
+}
+
+@keyframes barcode {
+	0% {
+		width:7vw;
+	}
+
+	100%{
+		width:15vw;
+	}
 }
 
 .barcode2{
@@ -168,7 +179,6 @@ a {
 	position: fixed;
 	margin-left:2.5%;
 	margin-top: 10%;
-
 }
 
 .networktext{
@@ -200,7 +210,11 @@ a {
 
 }
 
-
+.hotspot{
+	background-color: linear-gradient(magenta, lime);
+	width:100vw;
+	height:100vh;
+}
 .hotspotcircle{
 	background-color:lime;
 	width:50vw;
@@ -231,6 +245,568 @@ a {
 	margin-top:7vh;
 	width:40vw;
 }
+
+
+.captcha img{
+	width:100vw;
+	height:100vh;
+}
+
+
+.siri{
+	background-color:black;
+
+}
+
+.siritext{
+	background-color:black;
+	height:100vh;
+	width:100vw; 
+	color:white;
+	font-family: verdana;
+	font-size: 100px;
+	text-align: center;
+	position: fixed;
+	animation:siri 2s linear infinite alternate;
+}
+
+@keyframes siri {
+	0% {color:white;
+		background-color: black;
+	}
+
+	100%{
+		color:black;
+		background-color: white;
+	}
+}
+
+
+.password{
+	background-color:navy;
+	width:100vw;
+	height:100vh;
+}
+
+.passwordtext{
+	color:red;
+	font-size:70px;
+	padding: 45vh 40vw;
+	text-decoration:underline white;
+
+}
+
+.passport{
+	background-color: #36454f;
+	width:100vw;
+	height:100vh;
+
+}
+
+.star1{
+	color:#fdfd96;
+	font-size:40px;
+	padding:20vh 30vw;
+	position: fixed;
+}
+
+.star2{
+	color:#fdfd96;
+	font-size:40px;
+	padding:10vh 70vw;
+	position: fixed;
+}
+
+.star3{
+	color:#fdfd96;
+	font-size:40px;
+	padding:2vh 60vw;
+	position: fixed;
+}
+
+.star4{
+	color:#fdfd96;
+	font-size:40px;
+	padding:90vh 15vw;
+	position: fixed;
+}
+
+.star5{
+	color:#fdfd96;
+	font-size:40px;
+	padding:40vh 20vw;
+	position: fixed;
+}
+
+.star6{
+	color:#fdfd96;
+	font-size:40px;
+	padding:50vh 95vw;
+	position: fixed;
+}
+
+.star7{
+	color:#fdfd96;
+	font-size:40px;
+	padding:60vh 70vw;
+	position: fixed;
+}
+.star8{
+	color:#fdfd96;
+	font-size:40px;
+	padding:80vh 80vw;
+	position: fixed;
+}
+
+.star9{
+	color:#fdfd96;
+	font-size:40px;
+	padding:75vh 50vw;
+	position: fixed;
+}
+
+.star10{
+	color:#fdfd96;
+	font-size:40px;
+	padding:15vh 10vw;
+	position: fixed;
+}
+
+.passport img{
+	padding:25vh 35vw;
+	width:100vw;
+	position:fixed;
+}
+
+.roombabackground{
+	background-color:magenta;
+	height:100vh;
+	width:100vw;
+	z-index:-1;
+}
+
+.roomba{
+	background-color:white;
+	width:10vw;
+	height:10vw;
+	border-radius:110px;
+  	position: absolute;
+  	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  	animation-name: roomba;
+  	animation-duration: 10s;
+  	animation-iteration-count: infinite;
+  	z-index:10;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes roomba {
+  0%   {background-color:white; left:0px; top:0px;}
+  10%  {background-color:white; left:700px; top:200px;}
+  20%  {background-color:white; left:1000px; top:700px;}
+  30%  {background-color:white; left:800px; top:200px;}
+  40% {background-color:white; left:500px; top:40px;}
+  50% {background-color:white; left:300px; top:800px;}
+  60% {background-color:white; left:200px; top:700px;}
+  70% {background-color:white; left:100px; top:500px;}
+  80% {background-color:white; left:0px; top:600px;}
+  90% {background-color:white; left:300px; top:200px;}
+  100% {background-color:white; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes roomba {
+  0%   {background-color:white; left:0px; top:0px;}
+  10%  {background-color:white; left:700px; top:200px;}
+  20%  {background-color:white; left:1000px; top:700px;}
+  30%  {background-color:white; left:800px; top:200px;}
+  40% {background-color:white; left:500px; top:40px;}
+  50% {background-color:white; left:300px; top:800px;}
+  60% {background-color:white; left:200px; top:700px;}
+  70% {background-color:white; left:100px; top:500px;}
+  80% {background-color:white; left:0px; top:600px;}
+  90% {background-color:white; left:300px; top:200px;}
+  100% {background-color:white; left:0px; top:0px;}
+}
+
+
+.net{
+	background-color:black;
+	width:100vw;
+	height:100vh;
+	position:fixed;
+	z-index: -1;
+}
+
+.percentage{
+	font-family:courier;
+	font-size:20px;
+	position: absolute;
+	margin-left:47vw;
+	margin-top:47vh;
+}
+
+.loading{
+	background-color:#BDBDBD;
+	width:70vw;
+	height:3vh;
+	z-index:10;
+	border:3px solid white;
+	position:absolute;
+	margin-left:15vw;
+	margin-top:50vh;
+}
+
+
+.fblike{
+	background:#3C5A99;
+	width:100vw;
+	height:100vh;
+
+}
+
+.fblike img{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+	}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+}
+
+
+.taxfile{
+	width:100vw;
+	height:100vh;
+}
+
+.taxfile img{
+	width:100vw;
+	height:100vh;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  overflow: scroll; 
+}
+
+.yellowpages{
+	background-color: yellow;
+	height: 100vh;
+	width: 100vw;
+	font-size: 20px;
+	font-family: courier;
+	color: black;
+}
+
+
+		background-color:gradient;
+		font-family:courier;
+		width:100%;
+		height:40px;
+		margin-top:300px;
+		margin-left:200px;
+
+	}
+	.orangered {
+		background-color:orangered;
+						  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:1000ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+  
+	}
+	.tomato {
+		background-color:tomato;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:3000ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}
+	.orange {
+		background-color:orange;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:6000ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}	
+	.gold {
+		background-color:gold;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:3000ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}
+	.yellow {
+		background-color:yellow;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:2000ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}
+	.greenyellow {
+		background-color:greenyellow;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:5000ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}
+	.chartreuse {
+		background-color:chartreuse;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:500ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}
+	.green {
+		background-color:green;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:9000ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}
+	.mediumaquamarine {
+		background-color:mediumaquamarine;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:900ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}
+	.aqua {
+		background-color:aqua;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:300ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}
+	.steelblue {
+		background-color:steelblue;
+								  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:3000ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:60px;
+			}
+			to {
+				width:100%;
+			}
+	}
+	.midnightblue {
+		background-color:midnightblue;
+		width:90px;
+						  /*   add your animation name and settings here */
+		    animation-name:spinUG;
+		    animation-duration:5000ms;
+		    animation-iteration-count: infinite;
+		    animation-timing-function: linear;
+		    animation-direction: alternate;
+		}
+		/*   add your starting state and your end state  */
+		@keyframes spinUG {
+			from {
+				width:90px;
+			}
+			to {
+				width:100%;
+			}
+	}
+
+
+.voice{
+
+
+}
+
+.car img{
+	width:10vw;
+	z-index:10;
+	position: absolute;
+  	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  	animation-name: roomba;
+  	animation-duration: 10s;
+  	animation-iteration-count: infinite;
+
+} 
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes car {
+  0%   {left:0px; top:0px;}
+  10%  {left:700px; top:200px;}
+  20%  {left:1000px; top:700px;}
+  30%  {left:800px; top:200px;}
+  40% {left:500px; top:40px;}
+  50% {left:300px; top:800px;}
+  60% {left:200px; top:700px;}
+  70% {left:100px; top:500px;}
+  80% {left:0px; top:600px;}
+  90% {left:300px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes car {
+  0%   {left:0px; top:0px;}
+  10%  {left:700px; top:200px;}
+  20%  {left:1000px; top:700px;}
+  30%  {left:800px; top:200px;}
+  40% {left:500px; top:40px;}
+  50% {left:300px; top:800px;}
+  60% {left:200px; top:700px;}
+  70% {left:100px; top:500px;}
+  80% {left:0px; top:600px;}
+  90% {left:300px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+.melways img{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index:-1;
+}
+
+
+.qrcolumns{
+	width: 10%;
+
+
+}
+
+.qr1{
+	background-color:white;
+	height:150px;
+	border:50px solid black;
+		
+}
+
 
 
 
