@@ -56,9 +56,9 @@ a {
 
 .show {
 	height: 250px;
-	display: block;
 	transition: 0.5s;
-	background-color: red;	
+	background-color: red;
+
 }
 
 .form{
@@ -90,7 +90,6 @@ a {
 	margin-top:25px;
 	height:0;
 	overflow: hidden;
-	display: block;
 	transition: 0.5s;
 }
 
