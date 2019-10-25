@@ -1,5 +1,5 @@
 body {
-	font-family: courier;
+	font-family: times;
 	font-size: 32px;
 }
 
@@ -13,6 +13,7 @@ a {
 	font-size: 60px;
 	color:blue;
 	margin-top:35px;
+	margin-bottom: 40px;
 }
 
 .table {
@@ -25,6 +26,8 @@ a {
 	flex-wrap:wrap;
 	border-top: 2px solid black;
 	padding: 10px;
+	margin-left:6px;
+	margin-right: 6px;
 }
 
 .title {
@@ -40,7 +43,7 @@ a {
 
 .type {
 	flex:0 0 35%;
-	font-size: 20px;
+	font-size: 22px;
 
 }
 
@@ -50,21 +53,10 @@ a {
 
 }
 
-.description {
-
-}
-
-.show {
-	height: 250px;
-	transition: 0.5s;
-	background-color: red;
-
-}
-
 .form{
 	font-size: 25px;
 	margin-left: 20px;
-	margin-bottom: 50px;
+	margin-top:70vh;
 }
 
 .heading1{
@@ -86,20 +78,91 @@ a {
 }
 
 .toggle{
-	display:flex;
 	margin-top:25px;
-	height:0;
+	height:0px;
 	overflow: hidden;
+	display: flex;
 	transition: 0.5s;
 }
 
+.show {
+	height: 180px;
+	display: flex;
+	transition: 0.5s;	
+}
+
 .description{
-	flex: 0 0 66.66%;
+	flex: 0 0 75%;
 	font-size:25px;	
 }
 
-.descriptionaudio{
-	flex: 0 0 33.33%;
+.audio{
+	flex: 0 0 25%;
 }
+
+.contents {
+	width: 35%;
+	height:100%;
+	position: fixed;
+	bottom:0px;
+	left:0px;
+	background-color: blue;
+	margin-left: -50%;
+	overflow: scroll;
+	transition: 0.5s;
+	color:white;
+}
+
+.contents.left {
+	margin-left: 0%;
+	transition: 0.5s;
+}
+
+.nav-contents {
+	cursor: pointer;
+	position: absolute;
+	margin-left: 3vw;
+	margin-top: 1vh;
+	color:white;
+	background-color:blue;
+	text-align: center;
+	width:250px; 
+	height:40px;
+	font-size: 25px;
+	border-radius: 20px;
+	padding-top: 7px;
+
+
+}
+
+.nav-contents:hover{
+	color:blue;
+	background-color: white;
+}
+
+.close {
+	cursor: pointer;
+}
+
+.back{
+	background-color:blue;
+	text-align: center;
+	width:250px; 
+	height:40px;
+	font-size: 25px;
+	border-radius: 20px;
+	cursor: pointer;
+	color: white;
+	margin-top: 1vh;
+	margin-left: 80vw;
+	position: absolute;
+	padding-top: 7px;
+}
+
+.back:hover{
+	color:blue;
+	background-color: white;
+}
+
 
 
