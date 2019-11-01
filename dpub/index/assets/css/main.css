@@ -1,174 +1,30 @@
-body {
-	font-family: times;
-	font-size: 32px;
+body{
+	background-color: cyan;
 }
 
-a {
-	
-}
-
-.intro {
-	margin-left:24.5vw;
-	font-weight:bold;
-	font-size: 60px;
-	color:blue;
-	margin-top:35px;
-	margin-bottom: 40px;
-}
-
-.table {
-	margin-top: 20px;
-}
-
-
-.row {
-	display: flex;
-	flex-wrap:wrap;
-	border-top: 2px solid black;
-	padding: 10px;
-	margin-left:6px;
-	margin-right: 6px;
-}
-
-.title {
-	flex:0 0 40%;
+.header{
+	font-family: Times;
 	font-weight: bold;
-	cursor: pointer;
+	font-size: 80px;
+	color:#39ff14;
+	display:flex;
+	align-content: center;
+	justify-content:center;
+	padding-top: 35vh;
+}
+
+.links{
+	font-family:times;
+	font-size:40px;
 
 }
 
-.title:hover {
-	color:blue;
-}
-
-.type {
-	flex:0 0 35%;
-	font-size: 22px;
-
-}
-
-.date {
-	flex:0 0 25%;
-	font-size:25px;
-
-}
-
-.form{
-	font-size: 25px;
-	margin-left: 20px;
-	margin-top:70vh;
-}
-
-.heading1{
-	flex:0 0 40%;
-	font-weight: bold;
-	font-size: 40px;
-}
-
-.heading2{
-	flex:0 0 35%;
-	font-weight: bold;
-	font-size: 40px;
-}
-
-.heading3{
-	flex:0 0 25%;
-	font-weight: bold;
-	font-size: 40px;
-}
-
-.toggle{
-	margin-top:25px;
-	height:0px;
-	overflow: hidden;
-	display: flex;
-	transition: 0.5s;
-}
-
-.show {
-	height: 180px;
-	display: flex;
-	transition: 0.5s;	
-}
-
-.description{
-	flex: 0 0 75%;
-	font-size:25px;	
-}
-
-.audio{
-	flex: 0 0 25%;
-}
-
-.contents {
-	width: 35%;
-	height:100%;
-	position: fixed;
-	bottom:0px;
-	left:0px;
-	background-color: blue;
-	margin-left: -50%;
-	overflow: scroll;
-	transition: 0.5s;
+.links a{
+	font-family:times;
+	font-size:40px;
+	padding:10px;
 	color:white;
-}
-
-.contents.left {
-	margin-left: 0%;
-	transition: 0.5s;
-}
-
-.nav-contents {
-	cursor: pointer;
-	position: absolute;
-	margin-left: 3vw;
-	margin-top: 1vh;
-	color:white;
-	background-color:blue;
-	text-align: center;
-	width:250px; 
-	height:40px;
-	font-size: 25px;
-	border-radius: 20px;
-	padding-top: 7px;
-
+	display:flex;
+	justify-content: center;
 
 }
-
-.nav-contents:hover{
-	color:blue;
-	background-color: white;
-}
-
-.close {
-	cursor: pointer;
-}
-
-.back{
-	background-color:blue;
-	text-align: center;
-	width:250px; 
-	height:40px;
-	font-size: 25px;
-	border-radius: 20px;
-	cursor: pointer;
-	color: white;
-	margin-top: 1vh;
-	margin-left: 80vw;
-	position: absolute;
-	padding-top: 7px;
-}
-
-.back:hover{
-	color:blue;
-	background-color: white;
-}
-
-.nav{
-	background-color: white;
-	z-index: 10;
-	width:100vw;
-}
-
-
-
