@@ -1,12 +1,12 @@
 body{
-	background-color: cyan;
+	background-color: beige;
 }
 
 .header{
 	font-family: Times;
 	font-weight: bold;
 	font-size: 80px;
-	color:#39ff14;
+	color:blue;
 	display:flex;
 	align-content: center;
 	justify-content:center;
@@ -23,8 +23,13 @@ body{
 	font-family:times;
 	font-size:40px;
 	padding:10px;
-	color:white;
+	color:grey;
 	display:flex;
 	justify-content: center;
+	cursor: pointer;
+	text-decoration: none;
+}
 
+.links a:hover{
+	text-decoration: underline;
 }

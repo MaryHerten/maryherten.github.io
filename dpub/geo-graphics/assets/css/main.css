@@ -214,6 +214,8 @@ a {
 	background-color: linear-gradient(magenta, lime);
 	width:100vw;
 	height:100vh;
+	position: fixed;
+
 }
 .hotspotcircle{
 	background-color:lime;
@@ -240,10 +242,18 @@ a {
 	position: fixed;
 }
 
+.bluetooth{
+	background-color: pink;
+	width: 100vw;
+	height: 100vh;
+
+}
+
 .bluetoothsymbol img{
 	margin-left:5vw;
 	margin-top:7vh;
 	width:40vw;
+	position: fixed;
 }
 
 
@@ -794,27 +804,45 @@ a {
 }
 
 
-.qrcolumns{
-	width: 10%;
-
-
-}
-
-.qr1{
-	background-color:white;
-	height:150px;
-	border:50px solid black;
-		
+.qrbackground{
+	background-image: linear-gradient(red, pink, orange);
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+	position: fixed;
 }
 
 
+.qr1 img{
+	width: 100vw;
+	height:100vh;
+	z-index: 10;
+	position: fixed;		
+}
 
 .cautionimage{
-	margin-left: 27vw;
-	margin-top: 13vh;
+	margin-top: 55px;
+	margin-left: 110px;
 }
 
+.cautionimage img{
+	width: 30%;
 
+}
+
+.backgroundface img{
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+	position: fixed;
+}
+
+.scan {
+	width: 5vw;
+	height: 100vh;
+	z-index:10;
+	color:pink;
+}
 
 
 
