@@ -7,6 +7,12 @@ a {
 	
 }
 
+.back a{
+	color:white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
 .intro {
 	margin-left:24.5vw;
 	font-weight:bold;
